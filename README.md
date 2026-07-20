@@ -28,10 +28,8 @@
 <br>
 
 <div align="center">
-
-<!-- ВСТАВИТЬ СКРИНШОТ ГЛАВНОГО ОКНА -->
-
-<img src="screenshots/main-window.png" alt="Главное окно системы учёта материалов" width="900">
+  
+<img width="1497" height="878" alt="image" src="https://github.com/user-attachments/assets/9fe47d60-8eee-4649-a557-0cbf990d4eb7" />
 
 <p>
   <i>Главное окно приложения со списком складских материалов</i>
@@ -155,12 +153,12 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="screenshots/light-theme.png" alt="Светлая тема приложения" width="430">
+      <img width="1499" height="879" alt="image" src="https://github.com/user-attachments/assets/1443a04e-4fda-4a39-9326-4fcedd205469" />
       <br>
       <b>Светлая тема</b>
     </td>
     <td align="center" width="50%">
-      <img src="screenshots/dark-theme.png" alt="Тёмная тема приложения" width="430">
+      <img width="1497" height="877" alt="image" src="https://github.com/user-attachments/assets/42f97775-127b-41cc-9f51-26bc200e1c16" />
       <br>
       <b>Тёмная тема</b>
     </td>
@@ -202,17 +200,13 @@
 
 <div align="center">
 
-<!-- ВСТАВИТЬ СКРИНШОТ ОКНА АВТОРИЗАЦИИ -->
-
-<img src="screenshots/login.png" alt="Окно авторизации" width="500">
+<img width="418" height="349" alt="image" src="https://github.com/user-attachments/assets/4c63b38c-66e4-4f4f-a7aa-b6c64f7a7112" />
 
 <p>
   <i>Окно входа в информационную систему</i>
 </p>
 
 </div>
-
-> Не рекомендуется публиковать реальные логины и пароли в README или на скриншотах.
 
 ---
 
@@ -239,9 +233,7 @@
 
 <div align="center">
 
-<!-- ВСТАВИТЬ СКРИНШОТ РАЗДЕЛА МАТЕРИАЛОВ -->
-
-<img src="screenshots/materials.png" alt="Управление материалами" width="900">
+<img width="1496" height="877" alt="image" src="https://github.com/user-attachments/assets/97255fda-65ae-4bcd-ac0e-ef3859d720cd" />
 
 <p>
   <i>Справочник материалов мебельного производства</i>
@@ -285,8 +277,7 @@
 <div align="center">
 
 <!-- ВСТАВИТЬ СКРИНШОТ РАЗДЕЛА ПОСТАВЩИКОВ -->
-
-<img src="screenshots/suppliers.png" alt="Управление поставщиками" width="900">
+<img width="1496" height="877" alt="image" src="https://github.com/user-attachments/assets/a62c0c1d-3d8f-4dd1-8e41-253b883a134a" />
 
 <p>
   <i>Справочник поставщиков материалов</i>
@@ -325,8 +316,7 @@
 <div align="center">
 
 <!-- ВСТАВИТЬ СКРИНШОТ ПОСТУПЛЕНИЯ -->
-
-<img src="screenshots/receipts.png" alt="Регистрация поступления материалов" width="900">
+<img width="1496" height="877" alt="image" src="https://github.com/user-attachments/assets/4306ff84-99fc-423f-a7c3-1d5a6a821464" />
 
 <p>
   <i>Регистрация поступления материала на склад</i>
@@ -394,8 +384,7 @@
 <div align="center">
 
 <!-- ВСТАВИТЬ СКРИНШОТ РАЗДЕЛА РАСХОДА -->
-
-<img src="screenshots/expenses.png" alt="Расчёт расхода материалов" width="900">
+<img width="1497" height="877" alt="image" src="https://github.com/user-attachments/assets/780f1a5e-025d-4c84-b41a-b858a4ad3ecf" />
 
 <p>
   <i>Расчёт и списание материалов на производство</i>
@@ -425,8 +414,7 @@
 <div align="center">
 
 <!-- ВСТАВИТЬ СКРИНШОТ ФИЛЬТРА -->
-
-<img src="screenshots/table-filter.png" alt="Фильтрация таблицы" width="650">
+<img width="1499" height="878" alt="image" src="https://github.com/user-attachments/assets/84ce57c7-b0ec-4079-9869-251a00047602" />
 
 <p>
   <i>Фильтрация данных по значениям выбранного столбца</i>
@@ -485,8 +473,7 @@
 <div align="center">
 
 <!-- ВСТАВИТЬ СКРИНШОТ ОТЧЁТА -->
-
-<img src="screenshots/reports.png" alt="Отчёт по складским операциям" width="900">
+<img width="1498" height="877" alt="image" src="https://github.com/user-attachments/assets/89a0ed2e-81b7-4d55-a6f5-8b4a08bfb350" />
 
 <p>
   <i>Формирование отчёта по остаткам материалов</i>
@@ -515,8 +502,7 @@
 <div align="center">
 
 <!-- ВСТАВИТЬ ИЗОБРАЖЕНИЕ ГОТОВОГО PDF -->
-
-<img src="screenshots/pdf-report.png" alt="Экспортированный PDF-отчёт" width="850">
+<img width="1122" height="899" alt="image" src="https://github.com/user-attachments/assets/96a3c741-bf15-486f-86dd-c801515cf947" />
 
 <p>
   <i>Пример отчёта, экспортированного в PDF</i>
@@ -631,172 +617,6 @@
 
 ---
 
-## 📂 Структура проекта
-
-Пример рекомендуемой структуры файлов:
-
-```text
-project/
-├── app.py
-├── requirements.txt
-├── mebelnoe_atelie.db
-│
-├── assets/
-│   ├── logo.png
-│   ├── brightness_4.png
-│   └── brightness_5.png
-│
-├── data/
-│   └── materialy.csv
-│
-└── screenshots/
-    ├── login.png
-    ├── main-window.png
-    ├── materials.png
-    ├── suppliers.png
-    ├── receipts.png
-    ├── expenses.png
-    ├── table-filter.png
-    ├── reports.png
-    ├── pdf-report.png
-    ├── light-theme.png
-    └── dark-theme.png
-```
-
----
-
-## 🖼 Рекомендуемые скриншоты
-
-Для оформления репозитория рекомендуется добавить следующие изображения:
-
-<table>
-  <tr>
-    <th>Файл</th>
-    <th>Что показать</th>
-  </tr>
-  <tr>
-    <td><code>login.png</code></td>
-    <td>Окно авторизации без введённого пароля</td>
-  </tr>
-  <tr>
-    <td><code>main-window.png</code></td>
-    <td>Главное окно со списком материалов</td>
-  </tr>
-  <tr>
-    <td><code>materials.png</code></td>
-    <td>Таблицу материалов и кнопку добавления записи</td>
-  </tr>
-  <tr>
-    <td><code>suppliers.png</code></td>
-    <td>Справочник поставщиков</td>
-  </tr>
-  <tr>
-    <td><code>receipts.png</code></td>
-    <td>Форму регистрации поступления</td>
-  </tr>
-  <tr>
-    <td><code>expenses.png</code></td>
-    <td>Выбор изделия и автоматическую норму расхода</td>
-  </tr>
-  <tr>
-    <td><code>table-filter.png</code></td>
-    <td>Открытое окно фильтра столбца</td>
-  </tr>
-  <tr>
-    <td><code>reports.png</code></td>
-    <td>Готовый отчёт с несколькими строками</td>
-  </tr>
-  <tr>
-    <td><code>pdf-report.png</code></td>
-    <td>Открытый PDF-файл с экспортированным отчётом</td>
-  </tr>
-  <tr>
-    <td><code>dark-theme.png</code></td>
-    <td>Главное окно в тёмной теме</td>
-  </tr>
-</table>
-
----
-
-## 🚀 Установка и запуск
-
-### 1. Клонирование репозитория
-
-```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
-cd REPOSITORY
-```
-
-### 2. Создание виртуального окружения
-
-```bash
-python -m venv venv
-```
-
-### 3. Активация виртуального окружения
-
-Для Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Для Linux или macOS:
-
-```bash
-source venv/bin/activate
-```
-
-### 4. Установка зависимостей
-
-```bash
-pip install -r requirements.txt
-```
-
-Пример содержимого файла <code>requirements.txt</code>:
-
-```text
-customtkinter
-Pillow
-reportlab
-```
-
-### 5. Запуск приложения
-
-```bash
-python app.py
-```
-
-После запуска откроется окно авторизации.
-
----
-
-## 🔒 Безопасность
-
-Перед публикацией или реальным использованием приложения рекомендуется:
-
-<ul>
-  <li>удалить тестовые логины и пароли из исходного кода;</li>
-  <li>хранить пароли в виде хешей;</li>
-  <li>использовать переменные окружения или отдельный конфигурационный файл;</li>
-  <li>не добавлять рабочую базу данных в публичный репозиторий;</li>
-  <li>добавить файл базы данных и конфигурацию в <code>.gitignore</code>;</li>
-  <li>не показывать персональные данные поставщиков на скриншотах.</li>
-</ul>
-
-Пример файла <code>.gitignore</code>:
-
-```text
-venv/
-__pycache__/
-*.pyc
-*.db
-.env
-build/
-dist/
-```
-
----
 
 ## ✅ Результат
 
