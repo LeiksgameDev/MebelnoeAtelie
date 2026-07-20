@@ -1,0 +1,7 @@
+Админ:
+admin
+admin123
+
+Сотрудник:
+employee
+employee123
